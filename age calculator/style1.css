@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url('bg.jpeg') fixed;
+    /* background-color: black; */
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 520px;
+    height: 370px;
+    min-height: 100px;
+    margin: 100px auto;
+    background: transparent;
+    backdrop-filter: blur(80%);
+    background: url('bgg3.jpeg') fixed;
+    border-radius: 5px;
+    border: 1.5px solid #fe4e6e;
+    box-shadow: inset 0 0 0.5em 0 rgba(214, 56, 154, 0.911), 0 0 0.5em 0 #ff63b5;
+}
+
+.base h3 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    font-size: 34px;
+    color: #c3195d;
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #c3195d;
+}
+
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #c86b85;
+    padding: 12px;
+    background: url(bgg4.jpeg);
+    
+    /* background-color: #fde9df; */
+    /* background-color: #ffedff; */
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+input[type=text]::placeholder{
+    color: #c3195d;
+}
+input[type=button]{
+    width: 120px;
+    margin-left: 40%;
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #e7a4b7;
+    color: #a50161;
+    border: 1px solid #c2355d;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    box-shadow: inset 0 0 0.5em 0 #c86b85, 0 0 5em 0 #1d1b1c;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    box-shadow: inset 0 0 0.5em 0 #c86b85, 0 0 5em 0 #0ef;
+}
+
+#age{
+    padding: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: #c3195d;
+}
